@@ -1,6 +1,6 @@
 # File Sorter Program >-<
 ## 👋👋👋Hello im Cjay, I am a begginer at programming!!
-### How to use program ( inside The File Organizer folder )
+### How to use file sorter program ( inside The File Organizer folder )
 * the Program is a console application that runs on .Net ( C# )
 * Open the .exe if possible, if not you can download the CS file instead and run it through CMD ( if you have .Net ) 😢
 * just type in the path or folder path you want to be modified 💀:
