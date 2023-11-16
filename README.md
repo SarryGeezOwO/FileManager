@@ -1,4 +1,4 @@
-# How To Use File Organizer Program >-<
+# File Sorter Program >-<
 ### 👋👋👋Hello im Cjay Gidayawan, I am a begginer at programming!!
 * the Program is a console application that runs on .Net ( C# )
 * Open the .exe if possible, if not you can download the CS file instead and run it through CMD ( if you have .Net ) 😢
