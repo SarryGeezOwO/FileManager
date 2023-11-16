@@ -93,12 +93,12 @@ namespace FileShenanigans
                             };
 
                             string folderName = Path.GetExtension(file).ToUpper().Substring(1);
-                            string wantedPath = $@"{path}\{ChangeFolderName(folderName)}";
+                            string wantedPath = path + "\\" + ChangeFolderName(folderName);
                             if(!Directory.Exists(wantedPath)) 
                             {
                                 Console.ForegroundColor = ConsoleColor.Cyan;
                                 Console.Write("< ");
-                                Console.Write($"Created {ChangeFolderName(folderName)} Folder"); 
+                                Console.Write("Created " + ChangeFolderName(folderName) + " Folder"); 
                                 Console.WriteLine(" >");
                                 Console.ForegroundColor = ConsoleColor.Green;
                             }    
@@ -124,7 +124,7 @@ namespace FileShenanigans
         private void MoveFile(string file, string wantedPath, string filePath)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            File.Move(filePath, $@"{wantedPath}\{Path.GetFileName(file)}");
+            File.Move(filePath, wantedPath + "\\" + Path.GetFileName(file));
             Console.Write("File Name : ");
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(Path.GetFileNameWithoutExtension(file)); 
