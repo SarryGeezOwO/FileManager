@@ -86,14 +86,14 @@ namespace FileShenanigans
                     Console.WriteLine("");
                     
                     #region Folder Creator 9000000!!!=========================================================================
-                        foreach(string file in files) // create The Folders needed for organizing
+                        foreach(string file in files) // create The Folders needed for organizing and Individually Move File on desired folder
                         {
                             List<string> folders = new List<string> {
                                 "Videos", "Applications", "Documents", "Sai Files", "Images"
                             };
 
                             string folderName = Path.GetExtension(file).ToUpper().Substring(1);
-                            string wantedPath = $@"C:\Users\Rendhee\Desktop\Poopo's Folder\General Files\{ChangeFolderName(folderName)}";
+                            string wantedPath = $@"{path}\{ChangeFolderName(folderName)}";
                             if(!Directory.Exists(wantedPath)) 
                             {
                                 Console.ForegroundColor = ConsoleColor.Cyan;
@@ -138,6 +138,7 @@ namespace FileShenanigans
             Console.WriteLine("");
         }
 
+        // change Folder Name ( Customizaion )
         private string ChangeFolderName(string name)
         {
             string newName = name;
