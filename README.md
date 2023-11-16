@@ -1,5 +1,6 @@
 # How To Use File Organizer Program >-<
-### 👋👋👋Hello im Cjay V. Gidayawan, it is a console application that runs on .Net
+### 👋👋👋Hello im Cjay Gidayawan, I am a begginer at programming!!
+* the Program is a console application that runs on .Net ( C# )
 * Open the .exe if possible, if not you can download the CS file instead and run it through CMD ( if you have .Net ) 😢
 * just type in the path or folder path you want to be modified 💀:
 * the porgram will create the neccessary folder to contain the files to their respective extensions 🤗:
